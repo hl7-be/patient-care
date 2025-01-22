@@ -18,7 +18,6 @@ Description: """Profile for the Communication resource, as it is used in Belgium
 * subject ^short = "Subject of the communication - typically Patient"
 
 * topic MS
-* topic from $be-vs-diarytopic (preferred)
 * topic ^short = "Topic of the communication"
 
 * sent MS
@@ -26,7 +25,7 @@ Description: """Profile for the Communication resource, as it is used in Belgium
 * recipient only Reference(Device or BePatient or BePractitioner or BePractitionerRole or RelatedPerson or Group or CareTeam or HealthcareService or BeOrganization)
 * recipient MS
 * recipient ^short = "Intended receiver of the communication"
-* recipient ^definition = "This field indicates the intended receiver of the communication. For messages, this SHALL be explicitly indicated, even when it can be assumed e.g. to be the patient's Care Team. For diary notes, this can be optional."
+* recipient ^definition = "This field indicates the intended receiver of the communication. For messages, this SHALL be explicitly indicated, even when it can be assumed e.g. to be the patient's Care Team."
 * sender only Reference(Device or BePatient or BePractitioner or BePractitionerRole or RelatedPerson or HealthcareService or BeOrganization)
 * sender MS
 * sender ^short = "The actual sender of the communication"
