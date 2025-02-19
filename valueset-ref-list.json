@@ -1,0 +1,18 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-team-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CareTeamCategory",
+      "title" : "Care Team category",
+      "description" : "Indicates the type of care team.",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.155"],
+      "sources" : ["2.16.840.1.113883.4.642.3.155"],
+      "uses" : {
+      },
+      "StructureDefinition-be-careteam.html" : "BeCareTeam"
+    }
+  ]
+}
