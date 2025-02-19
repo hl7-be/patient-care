@@ -17,6 +17,8 @@ Description: "This is the profile for Care Plan. A Care Plan contains the activi
 * status MS
 * intent MS
 * category MS 
+* category ^comment = "Category can be used for filtering plan(s) on the type of care. This profile contains no specific ValueSets to indicate which categories can be used in a BeCarePlan."
+
 * title MS
 * description MS
 
