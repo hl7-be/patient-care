@@ -23,5 +23,3 @@ Description: "Logical model for Care Plan."
 * managingOrganization 0..1 Reference "Organization responsible for the care plan"
 * contact 0..* ContactPoint "Contact details for the care plan"
 * note 0..* string "Comments about the care plan"
-
-

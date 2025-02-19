@@ -1,7 +1,7 @@
 Profile: BeCareTeam
 Parent: CareTeam
 Id: be-careteam
-Title: "Care Team"
+Title: "BeCareTeam"
 Description: "This is the Belgian profile for care team. A care team defines the people and roles organized around a patient's care activities planned. It may also imply additional aspects such as access to information etc."
 * ^version = "1.0.0"
 * ^status = #active

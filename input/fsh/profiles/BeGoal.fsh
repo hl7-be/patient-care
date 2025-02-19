@@ -1,7 +1,7 @@
 Profile: BeGoal
 Parent: Goal
 Id: be-goal
-Title: "Goal"
+Title: "BeGoal"
 Description: "This is the profile for Goal."
 * ^version = "1.0.0"
 * ^status = #active

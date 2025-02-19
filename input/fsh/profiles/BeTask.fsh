@@ -1,7 +1,8 @@
+Alias: $CandidateList = http://hl7.org/fhir/StructureDefinition/task-candidateList
 Profile: BeTask
 Parent: Task
 Id: be-task
-Title: "Task"
+Title: "BeTask"
 Description: "This is the profile for Task."
 * ^version = "1.0.0"
 * ^status = #active
@@ -16,6 +17,11 @@ Description: "This is the profile for Task."
 
 * status MS
 * for MS 
+* requester MS
+* requester only Reference(BePatient or BePractitioner or BeOrganization or RelatedPerson)
 * owner MS
 * owner only Reference(BePatient or BePractitioner or BeOrganization or BeCareTeam or RelatedPerson)
 * for MS
+
+* extension contains $CandidateList named task-candidateList 1..* MS
+* extension[$CandidateList].valueReference only  Reference(BePatient or BePractitioner or BeOrganization or RelatedPerson)
