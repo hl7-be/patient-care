@@ -15,8 +15,8 @@ title: "HL7 Belgium Patient Care"
 description: Belgian Patient care profiles
 status: active
 license: CC0-1.0
-date: 2020-02-26
-version: 0.0.1
+date: 2025-02-26
+version: 1.0.0
 releaseLabel: R4
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
@@ -129,9 +129,11 @@ jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 # file name extension.  Any subproperties that are valid filenames
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
-#pages:
-#  index.md:
-#    title: Example Home
+pages:
+  index.md:
+    title: Home
+  downloads.xml:
+    title: Downloads
 #  implementation.xml:
 #  examples.xml:
 #    title: Examples Overview
