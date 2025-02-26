@@ -1,5 +1,4 @@
 Logical: BeModelCareTeam
-Id: be-model-careteam
 Title: "BeModelCareTeam"
 Description: "Logical model for Care Teams."
 
