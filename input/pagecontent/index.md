@@ -2,8 +2,8 @@ This is the HL7 Belgium FHIR Implementation Guide for Patient Care, prepared by 
 
 ### Scope 
 The resources in this Implementation Guide are contextualizations of the FHIR resources and are agnostic of any specific use case.  
-Therefore they provide guidance and minimal constraints, to allow the resources to be profiled in different topics.  
-Notably, resources like [CarePlan](StructureDefinition-be-care-plan.html), [Task](StructureDefinition-be-task.html), and to some extent CareTeam, are multi-purpose, and are expected to have different profiles for different types of use cases.
+Therefore they provide guidance and minimal constraints, to provide a generic basis for interoperability while allowing the resources to be profiled with additional details in different topics.    
+Notably, resources like [BeCarePlan](StructureDefinition-be-care-plan.html), [BeTask](StructureDefinition-be-task.html), and to some extent CareTeam, are multi-purpose, and are expected to have different profiles for different types of use cases.
 
 ### Usage
 These resources are expected to be further profiled by different use cases, in the different working groups.

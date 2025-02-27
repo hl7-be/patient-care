@@ -1,6 +1,6 @@
 Logical: BeModelTask
 // Id: be-model-task
-Title: "Logical: BeModelTask"
+Title: "BeModelTask"
 Description: "Logical model for Task."
 
 * identifier 0..* Identifier "Business identifiers of the task"
