@@ -1,0 +1,65 @@
+[
+  {
+    "id" : "hl7.fhir.be.patient-care",
+    "type" : "ImplementationGuide",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/ImplementationGuide/hl7.fhir.be.patient-care",
+    "version" : "1.0.0",
+    "name" : "BePatientCare"
+  },
+  {
+    "id" : "be-care-plan",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-care-plan",
+    "version" : "1.0.0",
+    "name" : "BeCarePlan"
+  },
+  {
+    "id" : "be-careteam",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-careteam",
+    "version" : "1.0.0",
+    "name" : "BeCareTeam"
+  },
+  {
+    "id" : "be-goal",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-goal",
+    "version" : "1.0.0",
+    "name" : "BeGoal"
+  },
+  {
+    "id" : "be-model-careplan",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-model-careplan",
+    "version" : "1.0.0",
+    "name" : "BeModelCarePlan"
+  },
+  {
+    "id" : "be-model-careteam",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-model-careteam",
+    "version" : "1.0.0",
+    "name" : "BeModelCareTeam"
+  },
+  {
+    "id" : "be-model-goal",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-model-goal",
+    "version" : "1.0.0",
+    "name" : "BeModelGoal"
+  },
+  {
+    "id" : "be-model-task",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-model-task",
+    "version" : "1.0.0",
+    "name" : "BeModelTask"
+  },
+  {
+    "id" : "be-task",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-task",
+    "version" : "1.0.0",
+    "name" : "BeTask"
+  }
+]
