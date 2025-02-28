@@ -1,5 +1,4 @@
 Logical: BeModelGoal
-Id: be-model-goal
 Title: "BeModelGoal"
 Description: "Logical model for Goal."
 
