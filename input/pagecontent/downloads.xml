@@ -5,7 +5,7 @@
 	<p>
     Download the entire implementation guide <a href="full-ig.zip">here</a>
 	</p>
-	<table>
+	<!-- table>
 		<tbody>
 			<tr>
 				<th>Artifact Definitions</th>
@@ -44,5 +44,5 @@
 {% endunless %}
 			</tr>
 		</tbody>
-	</table>
+	</table -->
 </div>
