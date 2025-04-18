@@ -1,0 +1,65 @@
+[
+  {
+    "id" : "hl7.fhir.be.patient-care",
+    "type" : "ImplementationGuide",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/ImplementationGuide/hl7.fhir.be.patient-care",
+    "version" : "0.0.1",
+    "name" : "BeCareCoordination"
+  },
+  {
+    "id" : "be-care-plan",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-care-plan",
+    "version" : "0.0.1",
+    "name" : "BeCarePlan"
+  },
+  {
+    "id" : "be-careteam",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-careteam",
+    "version" : "0.0.1",
+    "name" : "BeCareTeam"
+  },
+  {
+    "id" : "be-communication",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-communication",
+    "version" : "0.0.1",
+    "name" : "BeCommunication"
+  },
+  {
+    "id" : "be-goal",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-goal",
+    "version" : "0.0.1",
+    "name" : "BeGoal"
+  },
+  {
+    "id" : "be-model-careplan",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-model-careplan",
+    "version" : "0.0.1",
+    "name" : "BeModelCarePlan"
+  },
+  {
+    "id" : "be-model-careteam",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-model-careteam",
+    "version" : "0.0.1",
+    "name" : "BeModelCareTeam"
+  },
+  {
+    "id" : "be-model-communication",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-model-communication",
+    "version" : "0.0.1",
+    "name" : "BeModelCommunication"
+  },
+  {
+    "id" : "be-model-goal",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-model-goal",
+    "version" : "0.0.1",
+    "name" : "BeModelGoal"
+  }
+]
