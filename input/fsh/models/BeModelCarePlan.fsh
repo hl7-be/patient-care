@@ -1,5 +1,4 @@
 Logical: BeModelCarePlan
-Id: be-model-careplan
 Title: "BeModelCarePlan"
 Description: "Logical model for Care Plan."
 

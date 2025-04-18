@@ -13,7 +13,7 @@ url: https://www.ehealth.fgov.be/standards/fhir/patient-care
 name: BePatientCare
 title: "HL7 Belgium Patient Care"
 description: Belgian Patient care profiles
-status: active
+status: draft
 license: CC0-1.0
 date: 2025-02-26
 version: 1.0.0
@@ -130,12 +130,13 @@ jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 pages:
-  index.xml:
+  index.md:
     title: IG Home Page
   guidance.md:
     title: Guidance
   changes.xml:
   downloads.xml:
+    title: Downloads
 
 # The ImplementationGuide resource defines several other properties
 # not represented above. These properties can be used as-is and
