@@ -16,7 +16,8 @@ Description: "This is the profile for Goal."
 // we will define slices soon
 * lifecycleStatus MS
 * category MS 
-* expressedBy MS 1..1 Reference(BePatient or BePractitionerRole or BePatient or RelatedPerson)
+* expressedBy 1..1 MS 
+* expressedBy only Reference(BePatient or BePractitionerRole or BePatient or RelatedPerson)
 * subject MS
 * subject only Reference(BePatient or Group)
 * description MS
