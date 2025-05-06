@@ -13,7 +13,7 @@ url: https://www.ehealth.fgov.be/standards/fhir/patient-care
 name: BePatientCare
 title: "HL7 Belgium Patient Care"
 description: Belgian Patient care profiles
-status: draft
+status: active
 license: CC0-1.0
 date: 2025-02-26
 version: 1.0.0
