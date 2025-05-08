@@ -1,5 +1,10 @@
 This is the HL7 Belgium FHIR Implementation Guide for Patient Care, prepared by the Patient Care Work Group.
 
+### Disclaimer
+The purpose of these profiles is to support the various ongoing projects, such as Alivia, Born in Belgium and Data Innovation projects amongst other, in using validated Belgian profiles. This will enable easier connection and data exchange between projects in the future. However, to date, there is no intention to exchange these data.
+The profile remains subject to changes, according to the maturity model.
+
+
 ### Scope 
 The resources in this Implementation Guide are contextualizations of the FHIR resources and are agnostic of any specific use case.  
 Therefore they provide guidance and minimal constraints, to provide a generic basis for interoperability while allowing the resources to be profiled with additional details in different topics.    
