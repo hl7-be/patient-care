@@ -18,9 +18,9 @@ Description: "This is the profile for Task."
 * status MS
 * for MS 
 * requester MS
-* requester only Reference(BePatient or BePractitioner or BeOrganization or RelatedPerson)
+* requester only Reference(BePatient or BePractitioner or BeOrganization or RelatedPerson or BePractitionerRole)
 * owner MS
-* owner only Reference(BePatient or BePractitioner or BeOrganization or BeCareTeam or RelatedPerson)
+* owner only Reference(BePatient or BePractitioner or BeOrganization or BeCareTeam or RelatedPerson or BePractitionerRole)
 * for MS
 
 * extension contains $CandidateList named task-candidateList 1..* MS
