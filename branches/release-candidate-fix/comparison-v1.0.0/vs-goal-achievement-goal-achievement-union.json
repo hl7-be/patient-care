@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "c3fc7729-8774-427f-9e2b-8ade03318557-23",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/c3fc7729-8774-427f-9e2b-8ade03318557-23",
+  "name" : "UnionGoalAchievementStatusAndGoalAchievementStatus",
+  "title" : "Union of Goal achievement status And Goal achievement status",
+  "status" : "draft",
+  "date" : "2025-10-03T11:30:39+00:00"
+}

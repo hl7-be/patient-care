@@ -1,0 +1,525 @@
+{
+  "date" : "Fri, 26 Sep, 2025 14:59:27 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.patient-care.json",
+      "size" : 4896,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 39,
+          "length" : 12
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 40,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 40,
+          "length" : 88
+        },
+        {
+          "activity" : "validate",
+          "start" : 44,
+          "length" : 2855
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 47,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 73
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 101
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 63,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 68,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-BeModelCarePlan.json",
+      "size" : 7580,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 39,
+          "length" : 25
+        },
+        {
+          "activity" : "load",
+          "start" : 39,
+          "length" : 14
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 39,
+          "length" : 23
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 40,
+          "length" : 1
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 40,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 40,
+          "length" : 66
+        },
+        {
+          "activity" : "validate",
+          "start" : 41,
+          "length" : 1648
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 105
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 578
+        },
+        {
+          "activity" : "generate2",
+          "start" : 52,
+          "length" : 1268
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 63,
+          "length" : 5
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 68,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-BeModelCareTeam.json",
+      "size" : 5085,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 39,
+          "length" : 27
+        },
+        {
+          "activity" : "load",
+          "start" : 39,
+          "length" : 8
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 39,
+          "length" : 25
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 40,
+          "length" : 35
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 147
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 47,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 70
+        },
+        {
+          "activity" : "generate2",
+          "start" : 50,
+          "length" : 282
+        },
+        {
+          "activity" : "generate2",
+          "start" : 53,
+          "length" : 129
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 63,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-BeModelGoal.json",
+      "size" : 2003,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 39,
+          "length" : 30
+        },
+        {
+          "activity" : "load",
+          "start" : 39,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 39,
+          "length" : 26
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 40,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 42
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 33
+        },
+        {
+          "activity" : "generate2",
+          "start" : 50,
+          "length" : 148
+        },
+        {
+          "activity" : "generate2",
+          "start" : 53,
+          "length" : 49
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 63,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-BeModelTask.json",
+      "size" : 2446,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 39,
+          "length" : 22
+        },
+        {
+          "activity" : "load",
+          "start" : 39,
+          "length" : 7
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 39,
+          "length" : 25
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 40,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 41
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 47,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 36
+        },
+        {
+          "activity" : "generate2",
+          "start" : 50,
+          "length" : 114
+        },
+        {
+          "activity" : "generate2",
+          "start" : 53,
+          "length" : 47
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 63,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-be-care-plan.json",
+      "size" : 7042,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 39,
+          "length" : 23
+        },
+        {
+          "activity" : "load",
+          "start" : 39,
+          "length" : 9
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 39,
+          "length" : 147
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 40,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 40,
+          "length" : 38
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 436
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 47,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 187
+        },
+        {
+          "activity" : "generate2",
+          "start" : 50,
+          "length" : 470
+        },
+        {
+          "activity" : "generate2",
+          "start" : 53,
+          "length" : 357
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 63,
+          "length" : 8
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 68,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-be-careteam.json",
+      "size" : 4313,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 39,
+          "length" : 24
+        },
+        {
+          "activity" : "load",
+          "start" : 39,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 39,
+          "length" : 83
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 29
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 194
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 111
+        },
+        {
+          "activity" : "generate2",
+          "start" : 51,
+          "length" : 221
+        },
+        {
+          "activity" : "generate2",
+          "start" : 53,
+          "length" : 137
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 63,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-be-goal.json",
+      "size" : 1928,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 39,
+          "length" : 19
+        },
+        {
+          "activity" : "load",
+          "start" : 39,
+          "length" : 5
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 39,
+          "length" : 67
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 22
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 175
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 47,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 95
+        },
+        {
+          "activity" : "generate2",
+          "start" : 51,
+          "length" : 191
+        },
+        {
+          "activity" : "generate2",
+          "start" : 54,
+          "length" : 123
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 63,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 68,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-be-task.json",
+      "size" : 4145,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 39,
+          "length" : 21
+        },
+        {
+          "activity" : "load",
+          "start" : 39,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 39,
+          "length" : 89
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 40,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 26
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 459
+        },
+        {
+          "activity" : "validate",
+          "start" : 44,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 194
+        },
+        {
+          "activity" : "generate2",
+          "start" : 51,
+          "length" : 279
+        },
+        {
+          "activity" : "generate2",
+          "start" : 54,
+          "length" : 224
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 63,
+          "length" : 10
+        }
+      ]
+    }
+  ]
+}

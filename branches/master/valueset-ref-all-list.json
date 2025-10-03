@@ -1,0 +1,348 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-kind",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityKind",
+      "title" : "Care Plan Activity Kind",
+      "description" : "Resource types defined as part of FHIR that can be represented as in-line definitions of a care plan activity.",
+      "systems" : ["http://hl7.org/fhir/resource-types"],
+      "oids" : ["2.16.840.1.113883.4.642.3.145"],
+      "sources" : ["2.16.840.1.113883.4.642.3.145"],
+      "uses" : {
+      },
+      "StructureDefinition-be-care-plan.html" : "BECarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-outcome",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityOutcome",
+      "title" : "Care Plan Activity Outcome",
+      "description" : "Example codes indicating the outcome of a care plan activity. Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.149"],
+      "sources" : ["2.16.840.1.113883.4.642.3.149"],
+      "uses" : {
+      },
+      "StructureDefinition-be-care-plan.html" : "BECarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityStatus",
+      "title" : "CarePlanActivityStatus",
+      "description" : "Codes that reflect the current state of a care plan activity within its overall life cycle.",
+      "systems" : ["http://hl7.org/fhir/care-plan-activity-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.146"],
+      "sources" : ["2.16.840.1.113883.4.642.3.146"],
+      "uses" : {
+      },
+      "StructureDefinition-be-care-plan.html" : "BECarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanCategory",
+      "title" : "Care Plan Category",
+      "description" : "Example codes indicating the category a care plan falls within.  Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.148"],
+      "sources" : ["2.16.840.1.113883.4.642.3.148"],
+      "uses" : {
+      },
+      "StructureDefinition-be-care-plan.html" : "BECarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanIntent",
+      "title" : "Care Plan Intent",
+      "description" : "Codes indicating the degree of authority/intentionality associated with a care plan.",
+      "systems" : ["http://hl7.org/fhir/request-intent"],
+      "oids" : ["2.16.840.1.113883.4.642.3.150"],
+      "sources" : ["2.16.840.1.113883.4.642.3.150"],
+      "uses" : {
+      },
+      "StructureDefinition-be-care-plan.html" : "BECarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-team-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CareTeamCategory",
+      "title" : "Care Team category",
+      "description" : "Indicates the type of care team.",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.155"],
+      "sources" : ["2.16.840.1.113883.4.642.3.155"],
+      "uses" : {
+      },
+      "StructureDefinition-be-careteam.html" : "BeCareTeam"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-team-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CareTeamStatus",
+      "title" : "CareTeamStatus",
+      "description" : "Indicates the status of the care team.",
+      "systems" : ["http://hl7.org/fhir/care-team-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.153"],
+      "sources" : ["2.16.840.1.113883.4.642.3.153"],
+      "uses" : {
+      },
+      "StructureDefinition-be-careteam.html" : "BeCareTeam"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTClinicalFindings",
+      "title" : "SNOMED CT Clinical Findings",
+      "description" : "This value set includes all the \"Clinical finding\" [SNOMED CT](http://snomed.info/sct) codes - concepts where concept is-a 404684003 (Clinical finding (finding)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.232"],
+      "sources" : ["2.16.840.1.113883.4.642.3.232"],
+      "uses" : {
+      },
+      "StructureDefinition-be-care-plan.html" : "BECarePlan",
+      "StructureDefinition-be-goal.html" : "BeGoal",
+      "StructureDefinition-be-careteam.html" : "BeCareTeam"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/goal-achievement",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GoalAchievementStatus",
+      "title" : "Goal achievement status",
+      "description" : "Describes the progression, or lack thereof, towards the goal against the target.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/goal-achievement"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1374"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1374"],
+      "uses" : {
+      },
+      "StructureDefinition-be-goal.html" : "BeGoal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/goal-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GoalCategory",
+      "title" : "Goal category",
+      "description" : "Example codes for grouping goals to use for filtering or presentation.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/goal-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.275"],
+      "sources" : ["2.16.840.1.113883.4.642.3.275"],
+      "uses" : {
+      },
+      "StructureDefinition-be-goal.html" : "BeGoal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/goal-priority",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GoalPriority",
+      "title" : "Goal priority",
+      "description" : "Indicates the level of importance associated with reaching or sustaining a goal.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/goal-priority"],
+      "oids" : ["2.16.840.1.113883.4.642.3.273"],
+      "sources" : ["2.16.840.1.113883.4.642.3.273"],
+      "uses" : {
+      },
+      "StructureDefinition-be-goal.html" : "BeGoal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/goal-start-event",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GoalStartEvent",
+      "title" : "Goal start event",
+      "description" : "Identifies types of events that might trigger the start of a goal.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.279"],
+      "sources" : ["2.16.840.1.113883.4.642.3.279"],
+      "uses" : {
+      },
+      "StructureDefinition-be-goal.html" : "BeGoal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/goal-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GoalLifecycleStatus",
+      "title" : "GoalLifecycleStatus",
+      "description" : "Codes that reflect the current state of a goal and whether the goal is still being targeted.",
+      "systems" : ["http://hl7.org/fhir/goal-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.271"],
+      "sources" : ["2.16.840.1.113883.4.642.3.271"],
+      "uses" : {
+      },
+      "StructureDefinition-be-goal.html" : "BeGoal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.20"],
+      "sources" : ["2.16.840.1.113883.4.642.3.20"],
+      "uses" : {
+      },
+      "StructureDefinition-be-care-plan.html" : "BECarePlan",
+      "StructureDefinition-be-goal.html" : "BeGoal",
+      "StructureDefinition-be-careteam.html" : "BeCareTeam",
+      "StructureDefinition-be-task.html" : "BeTask"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTMedicationCodes",
+      "title" : "SNOMED CT Medication Codes",
+      "description" : "This value set includes all drug or medicament substance codes and all pharmaceutical/biologic products from SNOMED CT - provided as an exemplar value set.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.375"],
+      "sources" : ["2.16.840.1.113883.4.642.3.375"],
+      "uses" : {
+      },
+      "StructureDefinition-be-care-plan.html" : "BECarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LOINCCodes",
+      "title" : "LOINC Codes",
+      "description" : "This value set includes all LOINC codes",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.396"],
+      "sources" : ["2.16.840.1.113883.4.642.3.396"],
+      "uses" : {
+      },
+      "StructureDefinition-be-goal.html" : "BeGoal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/participant-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ParticipantRoles",
+      "title" : "Participant Roles",
+      "description" : "Roles of participants that may be included in a care team.  Defined as: Is a Person, Healthcare professional (occupation) or Healthcare related organization (qualifier value).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.152"],
+      "sources" : ["2.16.840.1.113883.4.642.3.152"],
+      "uses" : {
+      },
+      "StructureDefinition-be-careteam.html" : "BeCareTeam"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/performer-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedurePerformerRoleCodes",
+      "title" : "Procedure Performer Role Codes",
+      "description" : "This example value set defines the set of codes that can be used to indicate a role of a procedure performer.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.433"],
+      "sources" : ["2.16.840.1.113883.4.642.3.433"],
+      "uses" : {
+      },
+      "StructureDefinition-be-task.html" : "BeTask"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureCodes(SNOMEDCT)",
+      "title" : "Procedure Codes (SNOMED CT)",
+      "description" : "Procedure Code: All SNOMED CT procedure codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.427"],
+      "sources" : ["2.16.840.1.113883.4.642.3.427"],
+      "uses" : {
+      },
+      "StructureDefinition-be-care-plan.html" : "BECarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-priority",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestPriority",
+      "title" : "Request priority",
+      "description" : "The clinical priority of a diagnostic order.",
+      "systems" : ["http://hl7.org/fhir/request-priority"],
+      "oids" : ["2.16.840.1.113883.4.642.3.115"],
+      "sources" : ["2.16.840.1.113883.4.642.3.115"],
+      "uses" : {
+      },
+      "StructureDefinition-be-task.html" : "BeTask"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestStatus",
+      "title" : "RequestStatus",
+      "description" : "Codes identifying the lifecycle stage of a request.",
+      "systems" : ["http://hl7.org/fhir/request-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.111"],
+      "sources" : ["2.16.840.1.113883.4.642.3.111"],
+      "uses" : {
+      },
+      "StructureDefinition-be-care-plan.html" : "BECarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/task-code",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "TaskCode",
+      "title" : "Task Codes",
+      "description" : "Codes indicating the type of action that is expected to be performed",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/task-code"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1396"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1396"],
+      "uses" : {
+      },
+      "StructureDefinition-be-task.html" : "BeTask"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/task-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "TaskIntent",
+      "title" : "TaskIntent",
+      "description" : "Distinguishes whether the task is a proposal, plan or full order.",
+      "systems" : [
+        "http://hl7.org/fhir/request-intent",
+        "http://hl7.org/fhir/task-intent"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1240"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1240"],
+      "uses" : {
+      },
+      "StructureDefinition-be-task.html" : "BeTask"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/task-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "TaskStatus",
+      "title" : "TaskStatus",
+      "description" : "The current status of the task.",
+      "systems" : ["http://hl7.org/fhir/task-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.790"],
+      "sources" : ["2.16.840.1.113883.4.642.3.790"],
+      "uses" : {
+      },
+      "StructureDefinition-be-task.html" : "BeTask"
+    }
+  ]
+}

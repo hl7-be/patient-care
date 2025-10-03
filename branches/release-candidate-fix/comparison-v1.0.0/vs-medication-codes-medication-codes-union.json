@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "c3fc7729-8774-427f-9e2b-8ade03318557-44",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/c3fc7729-8774-427f-9e2b-8ade03318557-44",
+  "name" : "UnionSNOMEDCTMedicationCodesAndSNOMEDCTMedicationCodes",
+  "title" : "Union of SNOMED CT Medication Codes And SNOMED CT Medication Codes",
+  "status" : "draft",
+  "date" : "2025-10-03T11:30:39+00:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "410942007"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "373873005"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "106181007"
+      }]
+    }]
+  }
+}

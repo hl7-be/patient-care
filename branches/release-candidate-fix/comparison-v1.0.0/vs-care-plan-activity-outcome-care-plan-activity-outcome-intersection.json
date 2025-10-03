@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "c3fc7729-8774-427f-9e2b-8ade03318557-39",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/c3fc7729-8774-427f-9e2b-8ade03318557-39",
+  "name" : "IntersectionCarePlanActivityOutcomeAndCarePlanActivityOutcome",
+  "title" : "Intersection of Care Plan Activity Outcome And Care Plan Activity Outcome",
+  "status" : "draft",
+  "date" : "2025-10-03T11:30:39+00:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "397640006"
+      }]
+    }]
+  }
+}
