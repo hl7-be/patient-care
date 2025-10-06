@@ -190,6 +190,7 @@ parameters:
   apply-jurisdiction: true
   apply-publisher: true
   apply-version: true
+  path-history: https://www.ehealth.fgov.be/standards/fhir/patient-care/history.html
 
 
 # The FSHOnly flag indicates if only FSH resources should be exported.
@@ -203,4 +204,5 @@ FSHOnly: false
 
 dependencies:
   hl7.fhir.be.core: 2.1.2
+
 
