@@ -13,10 +13,10 @@ url: https://www.ehealth.fgov.be/standards/fhir/patient-care
 name: BePatientCare
 title: "HL7 Belgium Patient Care"
 description: Belgian Patient care profiles
-status: draft
+status: active
 license: CC0-1.0
-date: 2025-02-26
-version: 1.0.0
+date: 2025-09-26
+version: 1.1.0
 releaseLabel: R4
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
@@ -190,6 +190,7 @@ parameters:
   apply-jurisdiction: true
   apply-publisher: true
   apply-version: true
+  path-history: https://www.ehealth.fgov.be/standards/fhir/patient-care/history.html
 
 
 # The FSHOnly flag indicates if only FSH resources should be exported.
@@ -203,3 +204,5 @@ FSHOnly: false
 
 dependencies:
   hl7.fhir.be.core: 2.1.2
+
+
