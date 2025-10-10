@@ -1,0 +1,65 @@
+[
+  {
+    "id" : "hl7.fhir.be.patient-care",
+    "type" : "ImplementationGuide",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/ImplementationGuide/hl7.fhir.be.patient-care",
+    "version" : "1.1.0",
+    "name" : "BePatientCare"
+  },
+  {
+    "id" : "BeModelCarePlan",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/BeModelCarePlan",
+    "version" : "1.1.0",
+    "name" : "BeModelCarePlan"
+  },
+  {
+    "id" : "BeModelCareTeam",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/BeModelCareTeam",
+    "version" : "1.1.0",
+    "name" : "BeModelCareTeam"
+  },
+  {
+    "id" : "BeModelGoal",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/BeModelGoal",
+    "version" : "1.1.0",
+    "name" : "BeModelGoal"
+  },
+  {
+    "id" : "BeModelTask",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/BeModelTask",
+    "version" : "1.1.0",
+    "name" : "BeModelTask"
+  },
+  {
+    "id" : "be-care-plan",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-care-plan",
+    "version" : "1.1.0",
+    "name" : "BeCarePlan"
+  },
+  {
+    "id" : "be-careteam",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-careteam",
+    "version" : "1.1.0",
+    "name" : "BeCareTeam"
+  },
+  {
+    "id" : "be-goal",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-goal",
+    "version" : "1.1.0",
+    "name" : "BeGoal"
+  },
+  {
+    "id" : "be-task",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-task",
+    "version" : "1.1.0",
+    "name" : "BeTask"
+  }
+]

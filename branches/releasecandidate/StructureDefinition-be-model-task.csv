@@ -1,0 +1,13 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"be-model-task","be-model-task","","","",0,*,"","","","null {[]} {[]}
+","Logical: BeModelTask","Logical model for Task.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"be-model-task.identifier","be-model-task.identifier","","","",0,*,"","","","Identifier {[]} {[]}
+","Business identifiers of the task","Business identifiers of the task","","","","","","","","","",,,,,"",,,,"be-model-task.identifier",0,*,"",""
+"be-model-task.author","be-model-task.author","","","",1,1,"","","","Reference {[]} {[]}
+","Author of the task","Author of the task","","","","","","","","","",,,,,"",,,,"be-model-task.author",1,1,"",""
+"be-model-task.status","be-model-task.status","","","",1,1,"","","","code {[]} {[]}
+","Status of the task","Status of the task","","","","","","","","","",,,,,"",,,,"be-model-task.status",1,1,"",""
+"be-model-task.priority","be-model-task.priority","","","",0,1,"","","","code {[]} {[]}
+","Priority of the task","Priority of the task","","","","","","","","","",,,,,"",,,,"be-model-task.priority",0,1,"",""
+"be-model-task.owner","be-model-task.owner","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/valueset-reference]]} {[]}
+","Owners of the task (can be individuals or teams)","Owners of the task (can be individuals or teams)","","","","","","","","","",,,,,"",,,,"be-model-task.owner",0,*,"",""

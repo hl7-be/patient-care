@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "4bdc9b67-3871-446e-bfda-cc7df8889385-35",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4bdc9b67-3871-446e-bfda-cc7df8889385-35",
+  "name" : "UnionLOINCCodesAndLOINCCodes",
+  "title" : "Union of LOINC Codes And LOINC Codes",
+  "status" : "draft",
+  "date" : "2025-10-02T18:21:06+00:00"
+}

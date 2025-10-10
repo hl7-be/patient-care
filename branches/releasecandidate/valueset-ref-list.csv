@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://hl7.org/fhir/ValueSet/care-team-category,4.0.1,draft,"2.16.840.1.113883.4.642.3.155",CareTeamCategory,Care Team category,"Indicates the type of care team.","StructureDefinition/be-careteam","LOINC"

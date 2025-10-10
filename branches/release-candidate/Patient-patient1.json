@@ -1,0 +1,22 @@
+{
+  "resourceType" : "Patient",
+  "id" : "patient1",
+  "meta" : {
+    "profile" : ["https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient1</b></p><a name=\"patient1\"> </a><a name=\"hcpatient1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/StructureDefinition-be-patient.html\">BePatient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Jane Doe  Female, DoB: 1956-05-27 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#99999999999\u00a0(use:\u00a0official,\u00a0))</p><hr/></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin",
+    "value" : "99999999999"
+  }],
+  "name" : [{
+    "family" : "Doe",
+    "given" : ["Jane"]
+  }],
+  "gender" : "female",
+  "birthDate" : "1956-05-27"
+}

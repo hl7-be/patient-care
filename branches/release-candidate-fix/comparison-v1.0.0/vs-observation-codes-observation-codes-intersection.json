@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "265d372f-efd5-42b1-baa6-070253244c66-36",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/265d372f-efd5-42b1-baa6-070253244c66-36",
+  "name" : "IntersectionLOINCCodesAndLOINCCodes",
+  "title" : "Intersection of LOINC Codes And LOINC Codes",
+  "status" : "draft",
+  "date" : "2025-10-06T12:50:46+00:00"
+}
