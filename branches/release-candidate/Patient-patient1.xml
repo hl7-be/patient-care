@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="patient1"/>
+  <meta>
+    <profile value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient patient1</b></p><a name="patient1"> </a><a name="hcpatient1"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/StructureDefinition-be-patient.html">BePatient</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Jane Doe  Female, DoB: 1956-05-27 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#99999999999 (use: official, ))</p><hr/></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"/>
+    <value value="99999999999"/>
+  </identifier>
+  <name>
+    <family value="Doe"/>
+    <given value="Jane"/>
+  </name>
+  <gender value="female"/>
+  <birthDate value="1956-05-27"/>
+</Patient>
