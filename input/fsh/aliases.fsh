@@ -32,6 +32,7 @@ Alias: $be-cs-bodysite = https://www.ehealth.fgov.be/standards/fhir/CodeSystem/b
 Alias: $be-cs-score-category = https://www.ehealth.fgov.be/standards/fhir/CodeSystem/be-cs-score-category
 Alias: $v3-ObservationInterpretation = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation
 Alias: $m49.htm = http://unstats.un.org/unsd/methods/m49/m49.htm
+Alias: $BeExtRecorder = https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-ext-recorder
 Alias: $vitalsigns = http://hl7.org/fhir/StructureDefinition/vitalsigns
 Alias: $language = http://hl7.org/fhir/StructureDefinition/language
 Alias: $iso21090-ADXP-streetName = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName

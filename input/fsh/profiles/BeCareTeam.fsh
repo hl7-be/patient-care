@@ -17,16 +17,19 @@ Description: "This is the Belgian profile for care team. A care team defines the
 * ^jurisdiction.text = "Belgium"
 
 
-* identifier MS
-* status MS
+* identifier 1..* MS
+* status 1..1 MS
 * category MS
 * name MS
+// subject -> the subject of the CareSet. The documents specify the Patient;
+// Group is kept (see #45, the reference options are not constrained for now).
 * subject only Reference(BePatient or Group)
+* subject 1..1 MS
 * period MS
 * category MS
 * category from CareTeamCategory (example)
 
-* participant MS
+* participant 1..* MS
 * participant.member only Reference(BePatient or BePractitioner or BeOrganization or BePractitionerRole or BeCareTeam or RelatedPerson)
 * participant.onBehalfOf only Reference(BeOrganization)
 
@@ -41,5 +44,24 @@ Description: "This is the Belgian profile for care team. A care team defines the
 * participant.period 0..1 MS
 
 * managingOrganization only Reference(BeOrganization)
+* managingOrganization 0..1 MS
+
+// condition -> the condition/problem for which the CareTeam was assembled.
+// R4 carries this on reasonReference (Reference(Condition)).
+* reasonReference 0..* MS
 * telecom MS
 * note MS
+
+// Model elements with no native R4 CareTeam equivalent -> extensions.
+// recordedDate and created are the local CareSet extensions; author is the
+// be-core BeExtRecorder.
+//
+// value[x] on author is deliberately left as be-core defines it, which already
+// permits BePatient alongside BePractitioner, BeOrganization and
+// BePractitionerRole. See patient-care#45: the reference options are not
+// constrained for now, and this anticipates patient-dossier#36 rather than
+// pre-empting it.
+* extension contains
+    BeCareSetRecordedDate named recordedDate 1..1 MS and
+    BeCareSetCreated named created 0..1 MS and
+    $BeExtRecorder named author 1..1 MS
