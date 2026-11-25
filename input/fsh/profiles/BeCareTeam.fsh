@@ -43,3 +43,17 @@ Description: "This is the Belgian profile for care team. A care team defines the
 * managingOrganization only Reference(BeOrganization)
 * telecom MS
 * note MS
+
+// Model elements with no native R4 CareTeam equivalent -> extensions.
+// recordedDate and created are the local CareSet extensions; author is the
+// be-core BeExtRecorder.
+//
+// value[x] on author is deliberately left as be-core defines it, which already
+// permits BePatient alongside BePractitioner, BeOrganization and
+// BePractitionerRole. See patient-care#45: the reference options are not
+// constrained for now, and this anticipates patient-dossier#36 rather than
+// pre-empting it.
+* extension contains
+    BeCareSetRecordedDate named recordedDate 1..1 MS and
+    BeCareSetCreated named created 0..1 MS and
+    $BeExtRecorder named author 1..1 MS
