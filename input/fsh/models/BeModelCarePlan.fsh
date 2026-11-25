@@ -1,24 +1,32 @@
 Logical: BeModelCarePlan
+Id: BeModelCarePlan
 Title: "BeModelCarePlan"
 Description: "Logical model for Care Plan."
 
-* identifier 0..* Identifier "Identifiers assigned to this care plan"
-* name 0..1 string "Human-readable name for the care plan"
-* category 0..* CodeableConcept "Type of plan"
+* identifier 1..* Identifier "Identifiers assigned to this care plan"
+* title 0..1 string "Title of the care plan"
+* category 0..1 CodeableConcept "Type of plan"
 * basedOn 0..* Reference "Care plans that this care plan is based on"
-* partOf 0..* Reference "Care plans that this care plan is part of"
-* status 0..1 code "status of the care plan"
+* partOf 0..1 Reference "The parent CareSet this CareSet is part of"
+* status 1..1 code "status of the care plan"
 * description 0..1 string "Description of the care plan"
 * instantiates 0..* Reference "Protocol or definition that is instantiated by this care plan"
-* subject 0..1 Reference "Who care plan is for"
+* subject 1..1 Reference "Who care plan is for"
 * period 0..1 Period "Time period plan covers"
-* author 0..* Reference "Who is responsible for plan"
+* author 1..1 Reference "Who is responsible for plan"
 * careTeam 0..* Reference "Care team assigned to the care plan"
 * goal 0..* Reference "Expressed goals that this care plan is intended to achieve"
-* participant 0..* BackboneElement "Who is involved in the care plan"
-  * role 0..1 CodeableConcept "Type of involvement"
-  * member 1..1 Reference "Who is involved"
-  * period 0..1 Period "Time period of involvement"
-* managingOrganization 0..1 Reference "Organization responsible for the care plan"
-* contact 0..* ContactPoint "Contact details for the care plan"
+// Note: participant, managingOrganization and contact are CareTeam elements,
+// not CarePlan elements, and are not in the CarePlan business document. The
+// team involved is referenced through careTeam above.
 * note 0..* string "Comments about the care plan"
+
+// Elements required by the business document
+* intent 1..1 code "Intent of the care plan" "proposal | plan | order | option"
+* recordedDate 1..1 dateTime "Recording date by the author or recorder (date of last update)" "Coupled with the business identifier, guarantees that the latest version of the CareSet is shown"
+* created 0..1 dateTime "Moment the CareSet was created"
+* activity 0..* Reference "Actions planned or performed within this CareSet"
+* addresses 0..* Reference "The condition/problem for which this CareSet was set up"
+* encounter 0..1 Reference "The encounter referencing this CareSet"
+* replaces 0..* Reference "The previous version of the care plan that this one replaces"
+* contributor 0..* Reference "The person who adds content to the care plan"
