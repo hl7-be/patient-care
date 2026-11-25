@@ -1,0 +1,27 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	translate	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.patient-care.json	5883	-	0	0	0	1	0	0	5	40	0	0	0	0	0	0	0	0	0	0	0	45	49	0	0	0	2	0	0
+fsh-generated/resources/Patient-patient1.json	496	3	0	0	0	0	0	0	1	169	0	0	0	0	0	0	0	0	0	0	0	7	10	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-BeModelCarePlan.json	8545	5	0	14	2	0	0	0	0	47	0	0	1	0	0	0	0	0	0	0	0	29	487	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-BeModelCareTeam.json	6850	4	0	15	0	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	27	233	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-BeModelGoal.json	2004	2	0	5	0	0	0	0	0	4	0	0	0	0	0	0	0	1	0	0	0	11	115	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-BeModelTask.json	2447	2	0	5	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	12	101	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-be-care-plan.json	8471	4	0	40	0	0	0	0	0	33	0	0	0	0	0	1	0	1	0	0	0	80	821	0	0	0	7	0	1
+fsh-generated/resources/StructureDefinition-be-careteam.json	6517	4	0	19	0	0	0	0	0	21	0	0	0	0	0	0	0	0	0	0	0	42	308	0	0	0	5	0	0
+fsh-generated/resources/StructureDefinition-be-ext-careset-created.json	1348	1	0	4	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	11	137	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-be-ext-careset-recorded-date.json	1792	1	0	3	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	10	96	0	0	0	1	0	1
+fsh-generated/resources/StructureDefinition-be-goal.json	1928	2	0	16	0	0	0	0	0	11	0	0	1	0	0	0	0	0	0	0	0	31	247	0	0	0	3	0	0
+fsh-generated/resources/StructureDefinition-be-task.json	4145	2	0	24	0	0	0	0	1	20	0	0	0	0	0	0	0	1	0	0	0	50	396	0	0	0	6	1	0
+/fsh-generated/includes/menu.xml	1654	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/fsh-generated/includes/fsh-link-references.md	593	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/data/features.yml	5	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/spec.md	56	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/background.xml	271	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	38	0	0	0	0	0	0
+/input/pagecontent/guidance.md	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/changes.xml	700	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	0	0	0	0	0	0
+/input/pagecontent/index.md	1380	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/downloads.xml	1287	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	0	0	0	0	0	0
+/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config/_config.yml	46	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	216	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0
+/temp/pages/_includes/fragment-artifacts-table.html	4272	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0

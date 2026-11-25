@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b2891bc4-c5c0-4ad2-b1d7-c3de32e97e68-54",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b2891bc4-c5c0-4ad2-b1d7-c3de32e97e68-54",
+  "name" : "IntersectionTaskCodeAndTaskCode",
+  "title" : "Intersection of Task Codes And Task Codes",
+  "status" : "active",
+  "date" : "2025-10-10T11:56:50+00:00"
+}

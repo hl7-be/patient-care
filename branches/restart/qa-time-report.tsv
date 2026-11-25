@@ -1,0 +1,10 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.patient-care.json	5342	-	0	0	0	0	0	0	5	200	0	0	0	0	0	0	0	0	0	0	103	64	0	0	0	3	0	0
+fsh-generated/resources/StructureDefinition-be-care-plan.json	5726	23	0	0	0	0	0	94	1	67	0	0	1	0	0	0	0	2	0	0	357	2555	0	0	0	10	0	1
+fsh-generated/resources/StructureDefinition-be-careteam.json	4207	20	0	0	0	0	0	25	0	38	0	0	0	0	0	0	0	1	0	0	189	469	0	0	0	5	0	0
+fsh-generated/resources/StructureDefinition-be-communication.json	6279	20	0	0	0	0	0	56	0	192	0	0	0	0	0	0	0	1	0	0	228	487	0	0	0	7	0	1
+fsh-generated/resources/StructureDefinition-be-goal.json	844	18	1	0	0	0	0	43	0	33	0	0	0	0	0	0	0	0	0	0	167	270	0	0	0	4	1	2
+fsh-generated/resources/StructureDefinition-be-model-careplan.json	7671	20	0	0	0	0	0	28	0	27	0	0	0	0	0	0	0	0	0	0	163	193	0	0	0	4	0	0
+fsh-generated/resources/StructureDefinition-be-model-careteam.json	5148	20	0	0	0	0	0	18	0	25	0	0	0	0	0	0	0	1	0	0	117	129	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-be-model-communication.json	5309	19	0	0	0	0	0	22	0	16	0	0	0	0	0	0	0	0	0	0	137	186	0	0	0	3	0	0
+fsh-generated/resources/StructureDefinition-be-model-goal.json	2030	19	0	0	0	0	0	16	0	8	0	0	0	0	0	0	0	0	0	0	47	95	0	0	0	1	0	0

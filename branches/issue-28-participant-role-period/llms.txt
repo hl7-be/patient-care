@@ -1,0 +1,33 @@
+# hl7.fhir.be.patient-care#1.1.0: HL7 Belgium Patient Care(en)
+
+## Pages
+
+* [IG Home Page](en/index.md)
+* [Downloads](en/downloads.md)
+* [Guidance](en/guidance.md)
+* [Artifacts Summary](en/artifacts.md)
+* [Changes](en/changes.md)
+
+## Resources
+
+### Logicals
+
+* [BeModelCarePlan](en/StructureDefinition-BeModelCarePlan.md)
+* [BeModelCareTeam](en/StructureDefinition-BeModelCareTeam.md)
+* [BeModelGoal](en/StructureDefinition-BeModelGoal.md)
+* [BeModelTask](en/StructureDefinition-BeModelTask.md)
+
+### Resource Profiles
+
+* [BECarePlan](en/StructureDefinition-be-care-plan.md)
+* [BeCareTeam](en/StructureDefinition-be-careteam.md)
+* [BeGoal](en/StructureDefinition-be-goal.md)
+* [BeTask](en/StructureDefinition-be-task.md)
+
+### ImplementationGuides
+
+* [HL7 Belgium Patient Care](en/ImplementationGuide-hl7.fhir.be.patient-care.md)
+
+### Examples
+
+* [patient1 (Patient)](en/Patient-patient1.md)

@@ -1,0 +1,752 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/BeModelCarePlan> a fhir:StructureDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BeModelCarePlan"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: StructureDefinition BeModelCarePlan</b></p><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"xhtTableBorder0\"><tr class=\"xhtRowBorder1\"><th scope=\"col\" style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th scope=\"col\" style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th scope=\"col\" style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the element can appear in the instance\">Card.</a></th><th scope=\"col\" style=\"; width: 100px\" class=\"hierarchy xhtCellBorder0\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th scope=\"col\" style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck1.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan\" title=\"Logical model for Care Plan.\">BeModelCarePlan</a><a name=\"BeModelCarePlan\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://build.fhir.org/types.html#Base\">Base</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">BeModelCarePlan</td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.identifier\" title=\"Identifiers assigned to this care plan\">identifier</a><a name=\"BeModelCarePlan.identifier\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">1..*</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Identifiers assigned to this care plan<br/></td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.title\" title=\"Title of the care plan\">title</a><a name=\"BeModelCarePlan.title\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Title of the care plan</td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.category\" title=\"Type of plan\">category</a><a name=\"BeModelCarePlan.category\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Type of plan<br class=\"binding\"/><span class=\"xhtPieceBold binding\">Binding: </span><a href=\"http://hl7.org/fhir/R4/valueset-care-plan-category.html\" title=\"http://hl7.org/fhir/ValueSet/care-plan-category\" class=\"binding\">CarePlanCategory</a><span class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#extensible\" title=\"To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.\" class=\"binding\">extensible</a><span class=\"binding\">)</span></td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.basedOn\" title=\"Care plans that this care plan is based on\">basedOn</a><a name=\"BeModelCarePlan.basedOn\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..*</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Care plans that this care plan is based on<br/></td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.partOf\" title=\"The parent CareSet this CareSet is part of\">partOf</a><a name=\"BeModelCarePlan.partOf\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">The parent CareSet this CareSet is part of</td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.status\" title=\"status of the care plan\">status</a><a name=\"BeModelCarePlan.status\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">1..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">status of the care plan<br class=\"binding\"/><span class=\"xhtPieceBold binding\">Binding: </span><a href=\"http://hl7.org/fhir/R4/valueset-request-status.html\" title=\"http://hl7.org/fhir/ValueSet/request-status\" class=\"binding\">RequestStatus</a><span class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\" class=\"binding\">required</a><span class=\"binding\">)</span></td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.description\" title=\"Description of the care plan\">description</a><a name=\"BeModelCarePlan.description\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Description of the care plan</td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.patient\" title=\"The person who is the subject of the care referenced in this CareSet\">patient</a><a name=\"BeModelCarePlan.patient\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">1..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">The person who is the subject of the care referenced in this CareSet</td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.period\" title=\"Time period plan covers\">period</a><a name=\"BeModelCarePlan.period\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Period\">Period</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Time period plan covers</td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.author\" title=\"Who is responsible for plan\">author</a><a name=\"BeModelCarePlan.author\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">1..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Who is responsible for plan</td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.careTeam\" title=\"Care team assigned to the care plan\">careTeam</a><a name=\"BeModelCarePlan.careTeam\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..*</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Care team assigned to the care plan<br/></td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.goal\" title=\"Expressed goals that this care plan is intended to achieve\">goal</a><a name=\"BeModelCarePlan.goal\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..*</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Expressed goals that this care plan is intended to achieve<br/></td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.note\" title=\"Comments about the care plan\">note</a><a name=\"BeModelCarePlan.note\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..*</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Annotation\">Annotation</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Comments about the care plan<br/></td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.intent\" title=\"proposal | plan | order | option\">intent</a><a name=\"BeModelCarePlan.intent\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">1..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Intent of the care plan<br class=\"binding\"/><span class=\"xhtPieceBold binding\">Binding: </span><a href=\"http://hl7.org/fhir/R4/valueset-care-plan-intent.html\" title=\"http://hl7.org/fhir/ValueSet/care-plan-intent\" class=\"binding\">CarePlanIntent</a><span class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\" class=\"binding\">required</a><span class=\"binding\">)</span></td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.recordedDate\" title=\"Coupled with the business identifier, guarantees that the latest version of the CareSet is shown\">recordedDate</a><a name=\"BeModelCarePlan.recordedDate\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">1..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Recording date by the author or recorder (date of last update)</td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.created\" title=\"Moment the CareSet was created\">created</a><a name=\"BeModelCarePlan.created\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Moment the CareSet was created</td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.activity\" title=\"Actions planned or performed within this CareSet\">activity</a><a name=\"BeModelCarePlan.activity\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..*</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">Actions planned or performed within this CareSet<br/></td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.addresses\" title=\"The condition/problem for which this CareSet was set up\">addresses</a><a name=\"BeModelCarePlan.addresses\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..*</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">The condition/problem for which this CareSet was set up<br/></td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.encounter\" title=\"The encounter referencing this CareSet\">encounter</a><a name=\"BeModelCarePlan.encounter\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..1</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">The encounter referencing this CareSet</td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowEven\"><td style=\"background-image: url(tbl_bck10.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.replaces\" title=\"The previous version of the care plan that this one replaces\">replaces</a><a name=\"BeModelCarePlan.replaces\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..*</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">The previous version of the care plan that this one replaces<br/></td></tr>#xD;\n<tr class=\"xhtRowBorder0 xhtRowOdd\"><td style=\"background-image: url(tbl_bck00.png)\" class=\"hierarchy xhtCellBorder0 xhtCellNoWrap\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">BeModelCarePlan.</span><a href=\"StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.contributor\" title=\"The person who adds content to the care plan\">contributor</a><a name=\"BeModelCarePlan.contributor\"> </a></td><td style=\"\" class=\"hierarchy xhtCellBorder0\"/><td style=\"\" class=\"hierarchy xhtCellBorder0\">0..*</td><td style=\"\" class=\"hierarchy xhtCellBorder0\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"\" class=\"hierarchy xhtCellBorder0\">The person who adds content to the care plan<br/></td></tr>#xD;\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  ] ;
+  fhir:StructureDefinition.url [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/BeModelCarePlan"] ;
+  fhir:StructureDefinition.version [ fhir:value "1.1.0"] ;
+  fhir:StructureDefinition.name [ fhir:value "BeModelCarePlan"] ;
+  fhir:StructureDefinition.title [ fhir:value "BeModelCarePlan"] ;
+  fhir:StructureDefinition.status [ fhir:value "active"] ;
+  fhir:StructureDefinition.date [ fhir:value "2026-11-25T19:55:55+00:00"^^xsd:dateTime] ;
+  fhir:StructureDefinition.publisher [ fhir:value "eHealth Platform"] ;
+  fhir:StructureDefinition.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "eHealth Platform" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ehealth.fgov.be/standards/fhir" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "support@be-ehealth-standards.atlassian.net" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Message Structure eHealth" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "support@be-ehealth-standards.atlassian.net" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:StructureDefinition.description [ fhir:value "Logical model for Care Plan."] ;
+  fhir:StructureDefinition.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BE" ] ;
+       fhir:Coding.display [ fhir:value "Belgium" ]
+     ]
+  ] ;
+  fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"] ;
+  fhir:StructureDefinition.kind [ fhir:value "logical"] ;
+  fhir:StructureDefinition.abstract [ fhir:value "false"^^xsd:boolean] ;
+  fhir:StructureDefinition.type [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/BeModelCarePlan"] ;
+  fhir:StructureDefinition.baseDefinition [
+     fhir:value "http://hl7.org/fhir/StructureDefinition/Base" ;
+     fhir:link <http://hl7.org/fhir/StructureDefinition/Base>
+  ] ;
+  fhir:StructureDefinition.derivation [ fhir:value "specialization"] ;
+  fhir:StructureDefinition.snapshot [
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version" ] ;
+       fhir:Extension.valueString [ fhir:value "4.0.1" ]
+     ] ;
+     fhir:StructureDefinition.snapshot.element [
+       fhir:index 0 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan" ] ;
+       fhir:ElementDefinition.short [ fhir:value "BeModelCarePlan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Logical model for Care Plan." ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Base" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ] ;
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.identifier" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.identifier" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Identifiers assigned to this care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Identifiers assigned to this care plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.identifier" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Identifier" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.title" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.title" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Title of the care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Title of the care plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.title" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "string" ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.category" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.category" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Type of plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Type of plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.category" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ] ;
+       fhir:ElementDefinition.binding [
+         fhir:ElementDefinition.binding.strength [ fhir:value "extensible" ] ;
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "http://hl7.org/fhir/ValueSet/care-plan-category" ;
+           fhir:link <http://hl7.org/fhir/ValueSet/care-plan-category>
+         ]
+       ]
+     ], [
+       fhir:index 4 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.basedOn" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.basedOn" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Care plans that this care plan is based on" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Care plans that this care plan is based on" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.basedOn" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 5 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.partOf" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.partOf" ] ;
+       fhir:ElementDefinition.short [ fhir:value "The parent CareSet this CareSet is part of" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The parent CareSet this CareSet is part of" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.partOf" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 6 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.status" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.status" ] ;
+       fhir:ElementDefinition.short [ fhir:value "status of the care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "status of the care plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.status" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "code" ]
+       ] ;
+       fhir:ElementDefinition.binding [
+         fhir:ElementDefinition.binding.strength [ fhir:value "required" ] ;
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "http://hl7.org/fhir/ValueSet/request-status" ;
+           fhir:link <http://hl7.org/fhir/ValueSet/request-status>
+         ]
+       ]
+     ], [
+       fhir:index 7 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.description" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.description" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Description of the care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Description of the care plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.description" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "string" ]
+       ]
+     ], [
+       fhir:index 8 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.patient" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.patient" ] ;
+       fhir:ElementDefinition.short [ fhir:value "The person who is the subject of the care referenced in this CareSet" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The person who is the subject of the care referenced in this CareSet" ] ;
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.patient" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 9 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.period" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.period" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Time period plan covers" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Time period plan covers" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.period" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Period" ]
+       ]
+     ], [
+       fhir:index 10 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.author" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.author" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Who is responsible for plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Who is responsible for plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.author" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 11 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.careTeam" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.careTeam" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Care team assigned to the care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Care team assigned to the care plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.careTeam" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 12 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.goal" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.goal" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Expressed goals that this care plan is intended to achieve" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Expressed goals that this care plan is intended to achieve" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.goal" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 13 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.note" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.note" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Comments about the care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Comments about the care plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.note" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Annotation" ]
+       ]
+     ], [
+       fhir:index 14 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.intent" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.intent" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Intent of the care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "proposal | plan | order | option" ] ;
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.intent" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "code" ]
+       ] ;
+       fhir:ElementDefinition.binding [
+         fhir:ElementDefinition.binding.strength [ fhir:value "required" ] ;
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "http://hl7.org/fhir/ValueSet/care-plan-intent" ;
+           fhir:link <http://hl7.org/fhir/ValueSet/care-plan-intent>
+         ]
+       ]
+     ], [
+       fhir:index 15 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.recordedDate" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.recordedDate" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Recording date by the author or recorder (date of last update)" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Coupled with the business identifier, guarantees that the latest version of the CareSet is shown" ] ;
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.recordedDate" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
+       ]
+     ], [
+       fhir:index 16 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.created" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.created" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Moment the CareSet was created" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Moment the CareSet was created" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.created" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
+       ]
+     ], [
+       fhir:index 17 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.activity" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.activity" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Actions planned or performed within this CareSet" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Actions planned or performed within this CareSet" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.activity" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 18 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.addresses" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.addresses" ] ;
+       fhir:ElementDefinition.short [ fhir:value "The condition/problem for which this CareSet was set up" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The condition/problem for which this CareSet was set up" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.addresses" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 19 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.encounter" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.encounter" ] ;
+       fhir:ElementDefinition.short [ fhir:value "The encounter referencing this CareSet" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The encounter referencing this CareSet" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.encounter" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 20 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.replaces" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.replaces" ] ;
+       fhir:ElementDefinition.short [ fhir:value "The previous version of the care plan that this one replaces" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The previous version of the care plan that this one replaces" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.replaces" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 21 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.contributor" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.contributor" ] ;
+       fhir:ElementDefinition.short [ fhir:value "The person who adds content to the care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The person who adds content to the care plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelCarePlan.contributor" ] ;
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ]
+  ] ;
+  fhir:StructureDefinition.differential [
+     fhir:StructureDefinition.differential.element [
+       fhir:index 0 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan" ] ;
+       fhir:ElementDefinition.short [ fhir:value "BeModelCarePlan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Logical model for Care Plan." ]
+     ], [
+       fhir:index 1 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.identifier" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.identifier" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Identifiers assigned to this care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Identifiers assigned to this care plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Identifier" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.title" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.title" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Title of the care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Title of the care plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "string" ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.category" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.category" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Type of plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Type of plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ] ;
+       fhir:ElementDefinition.binding [
+         fhir:ElementDefinition.binding.strength [ fhir:value "extensible" ] ;
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "http://hl7.org/fhir/ValueSet/care-plan-category" ;
+           fhir:link <http://hl7.org/fhir/ValueSet/care-plan-category>
+         ]
+       ]
+     ], [
+       fhir:index 4 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.basedOn" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.basedOn" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Care plans that this care plan is based on" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Care plans that this care plan is based on" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 5 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.partOf" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.partOf" ] ;
+       fhir:ElementDefinition.short [ fhir:value "The parent CareSet this CareSet is part of" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The parent CareSet this CareSet is part of" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 6 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.status" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.status" ] ;
+       fhir:ElementDefinition.short [ fhir:value "status of the care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "status of the care plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "code" ]
+       ] ;
+       fhir:ElementDefinition.binding [
+         fhir:ElementDefinition.binding.strength [ fhir:value "required" ] ;
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "http://hl7.org/fhir/ValueSet/request-status" ;
+           fhir:link <http://hl7.org/fhir/ValueSet/request-status>
+         ]
+       ]
+     ], [
+       fhir:index 7 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.description" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.description" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Description of the care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Description of the care plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "string" ]
+       ]
+     ], [
+       fhir:index 8 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.patient" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.patient" ] ;
+       fhir:ElementDefinition.short [ fhir:value "The person who is the subject of the care referenced in this CareSet" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The person who is the subject of the care referenced in this CareSet" ] ;
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 9 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.period" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.period" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Time period plan covers" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Time period plan covers" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Period" ]
+       ]
+     ], [
+       fhir:index 10 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.author" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.author" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Who is responsible for plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Who is responsible for plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 11 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.careTeam" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.careTeam" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Care team assigned to the care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Care team assigned to the care plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 12 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.goal" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.goal" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Expressed goals that this care plan is intended to achieve" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Expressed goals that this care plan is intended to achieve" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 13 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.note" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.note" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Comments about the care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Comments about the care plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Annotation" ]
+       ]
+     ], [
+       fhir:index 14 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.intent" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.intent" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Intent of the care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "proposal | plan | order | option" ] ;
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "code" ]
+       ] ;
+       fhir:ElementDefinition.binding [
+         fhir:ElementDefinition.binding.strength [ fhir:value "required" ] ;
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "http://hl7.org/fhir/ValueSet/care-plan-intent" ;
+           fhir:link <http://hl7.org/fhir/ValueSet/care-plan-intent>
+         ]
+       ]
+     ], [
+       fhir:index 15 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.recordedDate" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.recordedDate" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Recording date by the author or recorder (date of last update)" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Coupled with the business identifier, guarantees that the latest version of the CareSet is shown" ] ;
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
+       ]
+     ], [
+       fhir:index 16 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.created" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.created" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Moment the CareSet was created" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Moment the CareSet was created" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
+       ]
+     ], [
+       fhir:index 17 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.activity" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.activity" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Actions planned or performed within this CareSet" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Actions planned or performed within this CareSet" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 18 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.addresses" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.addresses" ] ;
+       fhir:ElementDefinition.short [ fhir:value "The condition/problem for which this CareSet was set up" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The condition/problem for which this CareSet was set up" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 19 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.encounter" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.encounter" ] ;
+       fhir:ElementDefinition.short [ fhir:value "The encounter referencing this CareSet" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The encounter referencing this CareSet" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "1" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 20 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.replaces" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.replaces" ] ;
+       fhir:ElementDefinition.short [ fhir:value "The previous version of the care plan that this one replaces" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The previous version of the care plan that this one replaces" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ], [
+       fhir:index 21 ;
+       fhir:Element.id [ fhir:value "BeModelCarePlan.contributor" ] ;
+       fhir:ElementDefinition.path [ fhir:value "BeModelCarePlan.contributor" ] ;
+       fhir:ElementDefinition.short [ fhir:value "The person who adds content to the care plan" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The person who adds content to the care plan" ] ;
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.max [ fhir:value "*" ] ;
+       fhir:ElementDefinition.type [
+         fhir:index 0 ;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/BeModelCarePlan.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

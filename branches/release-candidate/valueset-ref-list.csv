@@ -1,0 +1,5 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+http://hl7.org/fhir/ValueSet/care-plan-category,4.0.1,draft,"2.16.840.1.113883.4.642.3.148",CarePlanCategory,Care Plan Category,"Example codes indicating the category a care plan falls within.  Note that these are in no way complete and might not even be appropriate for some uses.","StructureDefinition/BeModelCarePlan","SCT"
+http://hl7.org/fhir/ValueSet/care-plan-intent,4.0.1,draft,"2.16.840.1.113883.4.642.3.150",CarePlanIntent,Care Plan Intent,"Codes indicating the degree of authority/intentionality associated with a care plan.","StructureDefinition/BeModelCarePlan","hl7.fhir.r4.core"
+http://hl7.org/fhir/ValueSet/care-team-category,4.0.1,draft,"2.16.840.1.113883.4.642.3.155",CareTeamCategory,Care Team category,"Indicates the type of care team.","StructureDefinition/BeModelCareTeam,StructureDefinition/be-careteam","LOINC"
+http://hl7.org/fhir/ValueSet/request-status,4.0.1,draft,"2.16.840.1.113883.4.642.3.111",RequestStatus,RequestStatus,"Codes identifying the lifecycle stage of a request.","StructureDefinition/BeModelCarePlan","hl7.fhir.r4.core"

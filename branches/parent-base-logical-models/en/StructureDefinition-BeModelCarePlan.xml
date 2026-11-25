@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="BeModelCarePlan"/>
+  <language value="en"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: StructureDefinition BeModelCarePlan</b></p><table border="0" cellpadding="0" cellspacing="0" class="xhtTableBorder0"><tr class="xhtRowBorder1"><th scope="col" style="" class="hierarchy xhtCellBorder0"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element">Name</a></th><th scope="col" style="" class="hierarchy xhtCellBorder0"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element">Flags</a></th><th scope="col" style="" class="hierarchy xhtCellBorder0"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the element can appear in the instance">Card.</a></th><th scope="col" style="; width: 100px" class="hierarchy xhtCellBorder0"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element">Type</a></th><th scope="col" style="" class="hierarchy xhtCellBorder0"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr class="xhtRowBorder0 xhtRowEven"><td style="background-image: url(tbl_bck1.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="" style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan" title="Logical model for Care Plan.">BeModelCarePlan</a><a name="BeModelCarePlan"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0"><a href="http://build.fhir.org/types.html#Base">Base</a></td><td style="" class="hierarchy xhtCellBorder0">BeModelCarePlan</td></tr>
+<tr class="xhtRowBorder0 xhtRowOdd"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.identifier" title="Identifiers assigned to this care plan">identifier</a><a name="BeModelCarePlan.identifier"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">1..*</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></td><td style="" class="hierarchy xhtCellBorder0">Identifiers assigned to this care plan<br/></td></tr>
+<tr class="xhtRowBorder0 xhtRowEven"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="" style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.title" title="Title of the care plan">title</a><a name="BeModelCarePlan.title"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">0..1</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="" class="hierarchy xhtCellBorder0">Title of the care plan</td></tr>
+<tr class="xhtRowBorder0 xhtRowOdd"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.category" title="Type of plan">category</a><a name="BeModelCarePlan.category"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">0..1</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="" class="hierarchy xhtCellBorder0">Type of plan<br class="binding"/><span class="xhtPieceBold binding">Binding: </span><a href="http://hl7.org/fhir/R4/valueset-care-plan-category.html" title="http://hl7.org/fhir/ValueSet/care-plan-category" class="binding">CarePlanCategory</a><span class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead." class="binding">extensible</a><span class="binding">)</span></td></tr>
+<tr class="xhtRowBorder0 xhtRowEven"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.basedOn" title="Care plans that this care plan is based on">basedOn</a><a name="BeModelCarePlan.basedOn"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">0..*</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="" class="hierarchy xhtCellBorder0">Care plans that this care plan is based on<br/></td></tr>
+<tr class="xhtRowBorder0 xhtRowOdd"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.partOf" title="The parent CareSet this CareSet is part of">partOf</a><a name="BeModelCarePlan.partOf"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">0..1</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="" class="hierarchy xhtCellBorder0">The parent CareSet this CareSet is part of</td></tr>
+<tr class="xhtRowBorder0 xhtRowEven"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="" style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.status" title="status of the care plan">status</a><a name="BeModelCarePlan.status"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">1..1</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="" class="hierarchy xhtCellBorder0">status of the care plan<br class="binding"/><span class="xhtPieceBold binding">Binding: </span><a href="http://hl7.org/fhir/R4/valueset-request-status.html" title="http://hl7.org/fhir/ValueSet/request-status" class="binding">RequestStatus</a><span class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span class="binding">)</span></td></tr>
+<tr class="xhtRowBorder0 xhtRowOdd"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.description" title="Description of the care plan">description</a><a name="BeModelCarePlan.description"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">0..1</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="" class="hierarchy xhtCellBorder0">Description of the care plan</td></tr>
+<tr class="xhtRowBorder0 xhtRowEven"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.patient" title="The person who is the subject of the care referenced in this CareSet">patient</a><a name="BeModelCarePlan.patient"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">1..1</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="" class="hierarchy xhtCellBorder0">The person who is the subject of the care referenced in this CareSet</td></tr>
+<tr class="xhtRowBorder0 xhtRowOdd"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.period" title="Time period plan covers">period</a><a name="BeModelCarePlan.period"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">0..1</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#Period">Period</a></td><td style="" class="hierarchy xhtCellBorder0">Time period plan covers</td></tr>
+<tr class="xhtRowBorder0 xhtRowEven"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.author" title="Who is responsible for plan">author</a><a name="BeModelCarePlan.author"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">1..1</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="" class="hierarchy xhtCellBorder0">Who is responsible for plan</td></tr>
+<tr class="xhtRowBorder0 xhtRowOdd"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.careTeam" title="Care team assigned to the care plan">careTeam</a><a name="BeModelCarePlan.careTeam"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">0..*</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="" class="hierarchy xhtCellBorder0">Care team assigned to the care plan<br/></td></tr>
+<tr class="xhtRowBorder0 xhtRowEven"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.goal" title="Expressed goals that this care plan is intended to achieve">goal</a><a name="BeModelCarePlan.goal"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">0..*</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="" class="hierarchy xhtCellBorder0">Expressed goals that this care plan is intended to achieve<br/></td></tr>
+<tr class="xhtRowBorder0 xhtRowOdd"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.note" title="Comments about the care plan">note</a><a name="BeModelCarePlan.note"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">0..*</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#Annotation">Annotation</a></td><td style="" class="hierarchy xhtCellBorder0">Comments about the care plan<br/></td></tr>
+<tr class="xhtRowBorder0 xhtRowEven"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="" style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.intent" title="proposal | plan | order | option">intent</a><a name="BeModelCarePlan.intent"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">1..1</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="" class="hierarchy xhtCellBorder0">Intent of the care plan<br class="binding"/><span class="xhtPieceBold binding">Binding: </span><a href="http://hl7.org/fhir/R4/valueset-care-plan-intent.html" title="http://hl7.org/fhir/ValueSet/care-plan-intent" class="binding">CarePlanIntent</a><span class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span class="binding">)</span></td></tr>
+<tr class="xhtRowBorder0 xhtRowOdd"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.recordedDate" title="Coupled with the business identifier, guarantees that the latest version of the CareSet is shown">recordedDate</a><a name="BeModelCarePlan.recordedDate"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">1..1</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="" class="hierarchy xhtCellBorder0">Recording date by the author or recorder (date of last update)</td></tr>
+<tr class="xhtRowBorder0 xhtRowEven"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="" style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.created" title="Moment the CareSet was created">created</a><a name="BeModelCarePlan.created"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">0..1</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="" class="hierarchy xhtCellBorder0">Moment the CareSet was created</td></tr>
+<tr class="xhtRowBorder0 xhtRowOdd"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.activity" title="Actions planned or performed within this CareSet">activity</a><a name="BeModelCarePlan.activity"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">0..*</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="" class="hierarchy xhtCellBorder0">Actions planned or performed within this CareSet<br/></td></tr>
+<tr class="xhtRowBorder0 xhtRowEven"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.addresses" title="The condition/problem for which this CareSet was set up">addresses</a><a name="BeModelCarePlan.addresses"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">0..*</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="" class="hierarchy xhtCellBorder0">The condition/problem for which this CareSet was set up<br/></td></tr>
+<tr class="xhtRowBorder0 xhtRowOdd"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.encounter" title="The encounter referencing this CareSet">encounter</a><a name="BeModelCarePlan.encounter"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">0..1</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="" class="hierarchy xhtCellBorder0">The encounter referencing this CareSet</td></tr>
+<tr class="xhtRowBorder0 xhtRowEven"><td style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.replaces" title="The previous version of the care plan that this one replaces">replaces</a><a name="BeModelCarePlan.replaces"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">0..*</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="" class="hierarchy xhtCellBorder0">The previous version of the care plan that this one replaces<br/></td></tr>
+<tr class="xhtRowBorder0 xhtRowOdd"><td style="background-image: url(tbl_bck00.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">BeModelCarePlan.</span><a href="StructureDefinition-BeModelCarePlan-definitions.html#BeModelCarePlan.contributor" title="The person who adds content to the care plan">contributor</a><a name="BeModelCarePlan.contributor"> </a></td><td style="" class="hierarchy xhtCellBorder0"/><td style="" class="hierarchy xhtCellBorder0">0..*</td><td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="" class="hierarchy xhtCellBorder0">The person who adds content to the care plan<br/></td></tr>
+<tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/BeModelCarePlan"/>
+  <version value="1.1.0"/>
+  <name value="BeModelCarePlan"/>
+  <title value="BeModelCarePlan"/>
+  <status value="active"/>
+  <date value="2026-11-25T20:27:00+00:00"/>
+  <publisher value="eHealth Platform"/>
+  <contact>
+    <name value="eHealth Platform"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ehealth.fgov.be/standards/fhir"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="support@be-ehealth-standards.atlassian.net"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Message Structure eHealth"/>
+    <telecom>
+      <system value="email"/>
+      <value value="support@be-ehealth-standards.atlassian.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Logical model for Care Plan."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BE"/>
+      <display value="Belgium"/>
+    </coding>
+  </jurisdiction>
+  <fhirVersion value="4.0.1"/>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/BeModelCarePlan"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <derivation value="specialization"/>
+  <snapshot>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version">
+      <valueString value="4.0.1"/>
+    </extension>
+    <element id="BeModelCarePlan">
+      <path value="BeModelCarePlan"/>
+      <short value="BeModelCarePlan"/>
+      <definition value="Logical model for Care Plan."/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Base"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <isModifier value="false"/>
+    </element>
+    <element id="BeModelCarePlan.identifier">
+      <path value="BeModelCarePlan.identifier"/>
+      <short value="Identifiers assigned to this care plan"/>
+      <definition value="Identifiers assigned to this care plan"/>
+      <min value="1"/>
+      <max value="*"/>
+      <base>
+        <path value="BeModelCarePlan.identifier"/>
+        <min value="1"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.title">
+      <path value="BeModelCarePlan.title"/>
+      <short value="Title of the care plan"/>
+      <definition value="Title of the care plan"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelCarePlan.title"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.category">
+      <path value="BeModelCarePlan.category"/>
+      <short value="Type of plan"/>
+      <definition value="Type of plan"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelCarePlan.category"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/care-plan-category"/>
+      </binding>
+    </element>
+    <element id="BeModelCarePlan.basedOn">
+      <path value="BeModelCarePlan.basedOn"/>
+      <short value="Care plans that this care plan is based on"/>
+      <definition value="Care plans that this care plan is based on"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BeModelCarePlan.basedOn"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.partOf">
+      <path value="BeModelCarePlan.partOf"/>
+      <short value="The parent CareSet this CareSet is part of"/>
+      <definition value="The parent CareSet this CareSet is part of"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelCarePlan.partOf"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.status">
+      <path value="BeModelCarePlan.status"/>
+      <short value="status of the care plan"/>
+      <definition value="status of the care plan"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelCarePlan.status"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/request-status"/>
+      </binding>
+    </element>
+    <element id="BeModelCarePlan.description">
+      <path value="BeModelCarePlan.description"/>
+      <short value="Description of the care plan"/>
+      <definition value="Description of the care plan"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelCarePlan.description"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.patient">
+      <path value="BeModelCarePlan.patient"/>
+      <short value="The person who is the subject of the care referenced in this CareSet"/>
+      <definition value="The person who is the subject of the care referenced in this CareSet"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelCarePlan.patient"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.period">
+      <path value="BeModelCarePlan.period"/>
+      <short value="Time period plan covers"/>
+      <definition value="Time period plan covers"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelCarePlan.period"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Period"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.author">
+      <path value="BeModelCarePlan.author"/>
+      <short value="Who is responsible for plan"/>
+      <definition value="Who is responsible for plan"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelCarePlan.author"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.careTeam">
+      <path value="BeModelCarePlan.careTeam"/>
+      <short value="Care team assigned to the care plan"/>
+      <definition value="Care team assigned to the care plan"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BeModelCarePlan.careTeam"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.goal">
+      <path value="BeModelCarePlan.goal"/>
+      <short value="Expressed goals that this care plan is intended to achieve"/>
+      <definition value="Expressed goals that this care plan is intended to achieve"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BeModelCarePlan.goal"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.note">
+      <path value="BeModelCarePlan.note"/>
+      <short value="Comments about the care plan"/>
+      <definition value="Comments about the care plan"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BeModelCarePlan.note"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Annotation"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.intent">
+      <path value="BeModelCarePlan.intent"/>
+      <short value="Intent of the care plan"/>
+      <definition value="proposal | plan | order | option"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelCarePlan.intent"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/care-plan-intent"/>
+      </binding>
+    </element>
+    <element id="BeModelCarePlan.recordedDate">
+      <path value="BeModelCarePlan.recordedDate"/>
+      <short value="Recording date by the author or recorder (date of last update)"/>
+      <definition value="Coupled with the business identifier, guarantees that the latest version of the CareSet is shown"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelCarePlan.recordedDate"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.created">
+      <path value="BeModelCarePlan.created"/>
+      <short value="Moment the CareSet was created"/>
+      <definition value="Moment the CareSet was created"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelCarePlan.created"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.activity">
+      <path value="BeModelCarePlan.activity"/>
+      <short value="Actions planned or performed within this CareSet"/>
+      <definition value="Actions planned or performed within this CareSet"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BeModelCarePlan.activity"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.addresses">
+      <path value="BeModelCarePlan.addresses"/>
+      <short value="The condition/problem for which this CareSet was set up"/>
+      <definition value="The condition/problem for which this CareSet was set up"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BeModelCarePlan.addresses"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.encounter">
+      <path value="BeModelCarePlan.encounter"/>
+      <short value="The encounter referencing this CareSet"/>
+      <definition value="The encounter referencing this CareSet"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelCarePlan.encounter"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.replaces">
+      <path value="BeModelCarePlan.replaces"/>
+      <short value="The previous version of the care plan that this one replaces"/>
+      <definition value="The previous version of the care plan that this one replaces"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BeModelCarePlan.replaces"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.contributor">
+      <path value="BeModelCarePlan.contributor"/>
+      <short value="The person who adds content to the care plan"/>
+      <definition value="The person who adds content to the care plan"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BeModelCarePlan.contributor"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+  </snapshot>
+  <differential>
+    <element id="BeModelCarePlan">
+      <path value="BeModelCarePlan"/>
+      <short value="BeModelCarePlan"/>
+      <definition value="Logical model for Care Plan."/>
+    </element>
+    <element id="BeModelCarePlan.identifier">
+      <path value="BeModelCarePlan.identifier"/>
+      <short value="Identifiers assigned to this care plan"/>
+      <definition value="Identifiers assigned to this care plan"/>
+      <min value="1"/>
+      <max value="*"/>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.title">
+      <path value="BeModelCarePlan.title"/>
+      <short value="Title of the care plan"/>
+      <definition value="Title of the care plan"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.category">
+      <path value="BeModelCarePlan.category"/>
+      <short value="Type of plan"/>
+      <definition value="Type of plan"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/care-plan-category"/>
+      </binding>
+    </element>
+    <element id="BeModelCarePlan.basedOn">
+      <path value="BeModelCarePlan.basedOn"/>
+      <short value="Care plans that this care plan is based on"/>
+      <definition value="Care plans that this care plan is based on"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.partOf">
+      <path value="BeModelCarePlan.partOf"/>
+      <short value="The parent CareSet this CareSet is part of"/>
+      <definition value="The parent CareSet this CareSet is part of"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.status">
+      <path value="BeModelCarePlan.status"/>
+      <short value="status of the care plan"/>
+      <definition value="status of the care plan"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/request-status"/>
+      </binding>
+    </element>
+    <element id="BeModelCarePlan.description">
+      <path value="BeModelCarePlan.description"/>
+      <short value="Description of the care plan"/>
+      <definition value="Description of the care plan"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.patient">
+      <path value="BeModelCarePlan.patient"/>
+      <short value="The person who is the subject of the care referenced in this CareSet"/>
+      <definition value="The person who is the subject of the care referenced in this CareSet"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.period">
+      <path value="BeModelCarePlan.period"/>
+      <short value="Time period plan covers"/>
+      <definition value="Time period plan covers"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Period"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.author">
+      <path value="BeModelCarePlan.author"/>
+      <short value="Who is responsible for plan"/>
+      <definition value="Who is responsible for plan"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.careTeam">
+      <path value="BeModelCarePlan.careTeam"/>
+      <short value="Care team assigned to the care plan"/>
+      <definition value="Care team assigned to the care plan"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.goal">
+      <path value="BeModelCarePlan.goal"/>
+      <short value="Expressed goals that this care plan is intended to achieve"/>
+      <definition value="Expressed goals that this care plan is intended to achieve"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.note">
+      <path value="BeModelCarePlan.note"/>
+      <short value="Comments about the care plan"/>
+      <definition value="Comments about the care plan"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Annotation"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.intent">
+      <path value="BeModelCarePlan.intent"/>
+      <short value="Intent of the care plan"/>
+      <definition value="proposal | plan | order | option"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/care-plan-intent"/>
+      </binding>
+    </element>
+    <element id="BeModelCarePlan.recordedDate">
+      <path value="BeModelCarePlan.recordedDate"/>
+      <short value="Recording date by the author or recorder (date of last update)"/>
+      <definition value="Coupled with the business identifier, guarantees that the latest version of the CareSet is shown"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.created">
+      <path value="BeModelCarePlan.created"/>
+      <short value="Moment the CareSet was created"/>
+      <definition value="Moment the CareSet was created"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.activity">
+      <path value="BeModelCarePlan.activity"/>
+      <short value="Actions planned or performed within this CareSet"/>
+      <definition value="Actions planned or performed within this CareSet"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.addresses">
+      <path value="BeModelCarePlan.addresses"/>
+      <short value="The condition/problem for which this CareSet was set up"/>
+      <definition value="The condition/problem for which this CareSet was set up"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.encounter">
+      <path value="BeModelCarePlan.encounter"/>
+      <short value="The encounter referencing this CareSet"/>
+      <definition value="The encounter referencing this CareSet"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.replaces">
+      <path value="BeModelCarePlan.replaces"/>
+      <short value="The previous version of the care plan that this one replaces"/>
+      <definition value="The previous version of the care plan that this one replaces"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="BeModelCarePlan.contributor">
+      <path value="BeModelCarePlan.contributor"/>
+      <short value="The person who adds content to the care plan"/>
+      <definition value="The person who adds content to the care plan"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

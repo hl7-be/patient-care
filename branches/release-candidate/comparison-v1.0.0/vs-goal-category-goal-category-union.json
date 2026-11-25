@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b2891bc4-c5c0-4ad2-b1d7-c3de32e97e68-26",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b2891bc4-c5c0-4ad2-b1d7-c3de32e97e68-26",
+  "name" : "UnionGoalCategoryAndGoalCategory",
+  "title" : "Union of Goal category And Goal category",
+  "status" : "draft",
+  "date" : "2025-10-10T11:56:50+00:00"
+}

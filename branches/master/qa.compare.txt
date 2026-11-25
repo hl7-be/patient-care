@@ -1,0 +1,44 @@
+BePatientCare : Validation Results
+=========================================
+
+err = 0, warn = 10, info = 1
+$--
+Generated $--. FHIR version $-- for hl7.fhir.be.patient-care#$-- (canonical = https://www.ehealth.fgov.be/standards/fhir/patient-care)
+ Build Errors : 6 / 2 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.patient-care : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-BeModelCarePlan : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-BeModelCareTeam : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-BeModelGoal : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-BeModelTask : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-be-care-plan : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-be-careteam : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-be-goal : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-be-task : 0 / 3 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 194, column 7: The link 'definitions.xml.zip' for "XML" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 199, column 7: The link 'definitions.json.zip' for "JSON" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 204, column 7: The link 'definitions.ttl.zip' for "Turtle" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 212, column 7: The link 'examples.xml.zip' for "XML" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 217, column 7: The link 'examples.json.zip' for "JSON" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 222, column 7: The link 'examples.ttl.zip' for "Turtle" cannot be resolved
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.be.patient-care.json ==
+== fsh-generated/resources/StructureDefinition-BeModelCarePlan.json ==
+== fsh-generated/resources/StructureDefinition-BeModelCareTeam.json ==
+== fsh-generated/resources/StructureDefinition-BeModelGoal.json ==
+== fsh-generated/resources/StructureDefinition-BeModelTask.json ==
+WARNING: StructureDefinition/BeModelTask: StructureDefinition.snapshot.element[5].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/valueset-reference'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.1.0, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/valueset-reference' to 'http://hl7.org/fhir/StructureDefinition/valueset-reference|5.2.0'
+WARNING: StructureDefinition/BeModelTask: StructureDefinition.differential.element[5].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/valueset-reference'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.1.0, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/valueset-reference' to 'http://hl7.org/fhir/StructureDefinition/valueset-reference|5.2.0'
+== fsh-generated/resources/StructureDefinition-be-care-plan.json ==
+INFORMATION: StructureDefinition/be-care-plan: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-care-plan'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-be-careteam.json ==
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-careteam'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-be-goal.json ==
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-goal'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-be-task.json ==
+WARNING: StructureDefinition/be-task: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/task-candidateList'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/task-candidateList' to 'http://hl7.org/fhir/StructureDefinition/task-candidateList|5.2.0'
+WARNING: StructureDefinition/be-task: StructureDefinition.differential.element[2].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/task-candidateList'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/task-candidateList' to 'http://hl7.org/fhir/StructureDefinition/task-candidateList|5.2.0'
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/patient-care/StructureDefinition/be-task'): The Implementation Guide contains no examples for this profile

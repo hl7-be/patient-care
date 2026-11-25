@@ -1,0 +1,21 @@
+{
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-care",
+  "name" : "BePatientCare",
+  "title" : "HL7 Belgium Patient Care",
+  "description" : "Belgian Patient care profiles",
+  "ig-date" : "2025-09-26",
+  "status" : "active",
+  "package-id" : "hl7.fhir.be.patient-care",
+  "ig-ver" : "1.1.0",
+  "date" : "Wed, 25 Nov, 2026 17:43:31 +0000",
+  "dateISO8601" : "2026-11-25T17:43:31+00:00",
+  "errs" : 0,
+  "warnings" : 12,
+  "hints" : 11,
+  "broken-links" : 172,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "6.0.0-snapshot1 (3)",
+  "maxMemory" : 735654160
+}

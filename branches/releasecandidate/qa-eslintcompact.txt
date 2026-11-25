@@ -1,0 +1,17 @@
+BePatientCare
+=========================================
+
+Generic: line 0, col 0, Warning - The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole (INVALID)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+/github/workspace/fsh-generated/resources/StructureDefinition-BeModelTask.json: line 0, col 0, Info - Pinned the version of http://hl7.org/fhir/StructureDefinition/valueset-reference to 5.2.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.1.0 (hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0) (PROCESSING)
+/github/workspace/fsh-generated/resources/StructureDefinition-BeModelTask.json: line 0, col 0, Info - Pinned the version of http://hl7.org/fhir/StructureDefinition/valueset-reference to 5.2.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.1.0 (hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0) (PROCESSING)
+/github/workspace/fsh-generated/resources/StructureDefinition-be-care-plan.json: line 1, col 49018, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-be-care-plan.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-be-careteam.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-be-goal.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-be-task.json: line 0, col 0, Info - Pinned the version of http://hl7.org/fhir/StructureDefinition/task-candidateList to 5.2.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0) (PROCESSING)
+/github/workspace/fsh-generated/resources/StructureDefinition-be-task.json: line 0, col 0, Info - Pinned the version of http://hl7.org/fhir/StructureDefinition/task-candidateList to 5.2.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0) (PROCESSING)
+/github/workspace/fsh-generated/resources/StructureDefinition-be-task.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+
+err = 0, warn = 6, info = 5
+IG Publisher Version: 1.8.25

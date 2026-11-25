@@ -1,0 +1,25 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	translate	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.patient-care.json	5193	-	0	0	0	0	0	0	7	48	0	0	0	0	0	0	0	1	0	0	0	54	67	0	0	0	2	0	0
+fsh-generated/resources/Patient-patient1.json	496	3	0	0	0	0	0	0	0	190	0	0	0	0	0	0	0	0	0	0	0	10	13	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-BeModelCarePlan.json	7581	3	0	17	1	0	1	0	0	56	0	0	1	0	0	0	0	0	0	0	0	45	670	0	0	0	3	0	1
+fsh-generated/resources/StructureDefinition-BeModelCareTeam.json	5086	2	0	13	1	0	0	1	0	11	0	0	0	0	0	0	0	0	0	0	0	34	320	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-BeModelGoal.json	2004	1	0	5	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	17	148	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-BeModelTask.json	2447	1	0	5	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	17	162	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-be-care-plan.json	7042	3	0	39	0	0	0	0	1	26	0	0	0	1	0	0	0	1	0	0	0	96	636	0	0	0	11	1	1
+fsh-generated/resources/StructureDefinition-be-careteam.json	4603	2	0	18	0	0	0	0	0	20	0	0	0	0	0	0	0	1	0	0	0	46	287	0	0	0	4	0	0
+fsh-generated/resources/StructureDefinition-be-goal.json	1928	2	0	19	0	0	0	0	0	11	0	0	0	0	0	0	0	0	1	0	0	43	314	0	0	0	8	0	1
+fsh-generated/resources/StructureDefinition-be-task.json	4145	2	0	34	0	0	0	0	0	24	0	0	0	0	0	0	0	1	0	0	0	73	543	0	0	0	6	0	1
+/fsh-generated/includes/fsh-link-references.md	446	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
+/fsh-generated/includes/menu.xml	1654	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/data/features.yml	5	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/spec.md	56	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/changes.xml	700	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	73	0	0	0	0	0	0
+/input/pagecontent/index.md	1380	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/downloads.xml	1287	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	57	0	0	0	0	0	0
+/input/pagecontent/background.xml	271	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	59	0	0	0	0	0	0
+/input/pagecontent/guidance.md	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config/_config.yml	46	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	216	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0
+/temp/pages/_includes/fragment-artifacts-table.html	4272	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	0	0	0	0	0	0
