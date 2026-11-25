@@ -1,4 +1,5 @@
 Logical: BeModelCarePlan
+Parent: Base
 Id: BeModelCarePlan
 Title: "BeModelCarePlan"
 Description: "Logical model for Care Plan."

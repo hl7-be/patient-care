@@ -1,4 +1,5 @@
 Logical: BeModelCareTeam
+Parent: Base
 Id: BeModelCareTeam
 Title: "BeModelCareTeam"
 Description: "Logical model for Care Teams."

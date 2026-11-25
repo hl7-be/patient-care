@@ -1,4 +1,5 @@
 Logical: BeModelGoal
+Parent: Base
 Title: "BeModelGoal"
 Description: "Logical model for Goal."
 
