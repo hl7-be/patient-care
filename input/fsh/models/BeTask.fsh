@@ -1,4 +1,5 @@
 Logical: BeModelTask
+Parent: Base
 // Id: be-model-task
 Title: "BeModelTask"
 Description: "Logical model for Task."
