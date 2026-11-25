@@ -23,7 +23,7 @@ Description: "Logical model for Care Plan."
 // Note: participant, managingOrganization and contact are CareTeam elements,
 // not CarePlan elements, and are not in the CarePlan business document. The
 // team involved is referenced through careTeam above.
-* note 0..* string "Comments about the care plan"
+* note 0..* Annotation "Comments about the care plan"
 
 // Elements required by the business document
 * intent 1..1 code "Intent of the care plan" "proposal | plan | order | option"

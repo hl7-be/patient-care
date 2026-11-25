@@ -17,7 +17,7 @@ Description: "Logical model for Care Teams."
 * condition 0..* Reference "The condition/problem for which the care team was assembled"
 * managingOrganization 0..1 Reference "Organization responsible for the care team"
 * contact 0..* ContactPoint "Contact details for the care team"
-* note 0..* string "Additional notes"
+* note 0..* Annotation "Additional notes"
 
 // CareSet metadata required by the business document
 * recordedDate 1..1 dateTime "Recording date by the author or recorder (date of last update)" "Coupled with the business identifier, guarantees that the latest version of the CareSet is shown"
