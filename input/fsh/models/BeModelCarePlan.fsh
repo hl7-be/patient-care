@@ -10,7 +10,9 @@ Description: "Logical model for Care Plan."
 * partOf 0..1 Reference "The parent CareSet this CareSet is part of"
 * status 1..1 code "status of the care plan"
 * description 0..1 string "Description of the care plan"
-* instantiates 0..* Reference "Protocol or definition that is instantiated by this care plan"
+// Note: instantiates is not in the CarePlan business document. It corresponded
+// to the FHIR instantiatesCanonical / instantiatesUri elements, which the
+// business specification does not ask for, so it is not part of this model.
 * subject 1..1 Reference "Who care plan is for"
 * period 0..1 Period "Time period plan covers"
 * author 1..1 Reference "Who is responsible for plan"
