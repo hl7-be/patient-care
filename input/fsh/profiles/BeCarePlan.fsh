@@ -66,8 +66,10 @@ Description: "This is the profile for Care Plan. A Care Plan contains the activi
 // addresses -> the condition/problem for which this CareSet was set up
 * addresses 0..* MS
 
-// replaces -> the previous version of the CarePlan that this one replaces
-* replaces only Reference(BeCarePlan)
+// replaces -> the previous version of the CarePlan that this one replaces.
+// The reference is deliberately not constrained to BeCarePlan (see #50),
+// even though basedOn and partOf above are, because that constraint is not
+// in the business document.
 * replaces 0..* MS
 
 // recordedDate -> no native CarePlan equivalent -> extension

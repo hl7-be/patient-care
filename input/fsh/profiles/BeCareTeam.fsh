@@ -31,7 +31,6 @@ Description: "This is the Belgian profile for care team. A care team defines the
 
 * participant 1..* MS
 * participant.member only Reference(BePatient or BePractitioner or BeOrganization or BePractitionerRole or BeCareTeam or RelatedPerson)
-* participant.member 1..1 MS
 * participant.onBehalfOf only Reference(BeOrganization)
 
 // role -> the role the participant plays in the CareTeam.
