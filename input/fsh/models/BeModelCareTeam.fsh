@@ -8,7 +8,7 @@ Description: "Logical model for Care Teams."
 * category 0..* CodeableConcept "Type of team"
 * category from http://hl7.org/fhir/ValueSet/care-team-category (extensible)
 * status 1..1 code "Status of the care team"
-* subject 1..1 Reference "the subject of care for the care team"
+* patient 1..1 Reference "The person who is the subject of the records in this CareSet"
 * period 0..1 Period "Time period of the care team"
 * participant 1..* BackboneElement "Members of the care team"
   * role 0..1 CodeableConcept "Role of the team member"
